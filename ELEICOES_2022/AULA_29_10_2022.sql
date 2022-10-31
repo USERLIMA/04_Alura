@@ -1,6 +1,8 @@
 -- instancia de SQL server é um executável do SQL que roda no sistema operacional e pode gerenciar vários bancos de dados
 -- a instancia roda na porta default 1433 e insancia nomeada na porta 1434 ou outra
 -- Tipos de mdoelos de dados (modelo conceitual x modelo lógico x modelo floco)
+
+-- ping localhost -4
 sp_help [TB_HISTORICO_TOTALIZACAO_PRESIDENTE_BR_1T_2022];
 
 sp_who;
