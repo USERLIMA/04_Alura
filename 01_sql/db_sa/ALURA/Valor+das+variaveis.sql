@@ -3,10 +3,10 @@ SELECT DATENAME(WEEKDAY, DATEADD(DAY, 6, GETDATE()))
 
 DECLARE @DIA_SEMANA VARCHAR(20)
 DECLARE @NUMERO_DIAS INT
-SET @NUMERO_DIAS = 9
+SET @NUMERO_DIAS = 44
 SET @DIA_SEMANA = DATENAME(WEEKDAY, DATEADD(DAY, @NUMERO_DIAS, GETDATE()))
 PRINT @DIA_SEMANA
-IF @DIA_SEMANA = 'Domingo' OR @DIA_SEMANA = 'Sábado'
-   PRINT 'Este dia é fim de semana'
+IF @DIA_SEMANA = 'Domingo' OR @DIA_SEMANA = 'SÃ¡bado'
+   PRINT 'Este dia Ã© fim de semana'
 ELSE
-   PRINT 'Este dia é dia da semana'
+   PRINT 'Este dia Ã© dia da semana'
