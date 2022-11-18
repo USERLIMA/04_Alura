@@ -1,7 +1,0 @@
-
-
-INSERT INTO [TABELA DE PRODUTOS]
-([CODIGO DO PRODUTO], [NOME DO PRODUTO], [EMBALAGEM], [TAMANHO], [SABOR], [PREÇO DE LISTA])
-VALUES
-('1040107','Light - 350 ml - Melância', 'Lata', '350 ml', 'Melância', 4.56)
-
