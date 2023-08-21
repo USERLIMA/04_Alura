@@ -1,0 +1,5 @@
+FROM node:14
+WORKDIR /app-node
+EXPOSE 3000
+COPY . .
+ENTRYPOINT npm start
